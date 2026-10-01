@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SmartPantryManager"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartPantryManager">
+
+        <activity
+            android:name=".activities.AddIngredientActivity" />
+
+        <activity
+            android:name=".activities.EditIngredientActivity" />
+
+        <activity
+            android:name=".activities.RecipeDetailActivity" />
+
+        <activity
+            android:name=".activities.RecipesActivity" />
+
+        <activity
+            android:name=".activities.SettingsActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
