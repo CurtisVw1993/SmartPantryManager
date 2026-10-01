@@ -42,6 +42,15 @@ Smart Pantry Manager is an Android application developed in Java using Android S
 - Clear Pantry
 - About Application
 
+## Version 1.0
+
+Completed Features
+
+- Pantry Management
+- Recipe Matching
+- Recipe Details
+- Settings Screen
+
 ## Developer
 
 Curtis van Wyk
